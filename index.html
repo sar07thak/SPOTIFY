@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- global-container -->
+    <div class="min-h-screen bg-black p-1">
+
+                                            <!-- main container -->
+        <div class=" flex md:flex text-white mb-1 ">
+            
+                                                                            <!----------------side-bars---------------- -->
+    
+            <div class=" md:w-[28%]  h-[618px] ">
+                <!-- upper-container -->
+                <div class="md:p-2 px-4 py-2 bg-neutral-800 rounded flex flex-col  md:w-[97%] md:h-[23%] mb-2">
+                    <div class="flex gap-3 items-center p-2 text-md  hover:opacity-65 duration-300">
+                        <i class="fa-brands fa-spotify"></i>
+                        <p>Spotify</p>
+                    </div>
+                    <div class="flex gap-3  items-center p-2 text-md hover:opacity-65 duration-300">
+                        <i class="fa-solid fa-house" ></i>
+                        <p>Home</p>
+                    </div>
+                    <divc class="flex gap-3 items-center text-md p-2 hover:opacity-65 duration-300">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <p>Search</p>
+                </div>
+                <!-- lower-container -->
+                <div class="p-4 bg-neutral-800 rounded md:w-[97%] md:h-[75%] ">
+                    <!-- heading -->
+                    <div class="flex justify-between text-xl mb-2">
+                        <div class="flex text-xl ">
+                            <div>II\</div>
+                            <p>Your Library</p>
+                        </div>
+                        <div class="text-2xl">+</div>
+                    </div>
+                    <div class="overflow-y-scroll md:h-[60%] p-2">
+                        <!--1st-container -->
+                        <div class=" bg-neutral-700 rounded-xl p-4 mb-2 h-36 md:h-36 ">
+                            <h2 class="text-md font-bold mb-3">Create yoour first playlist</h2>
+                            <p class="text-xs font-semibold mb-5">It's easy,we'll help you</p>
+                            <button class="px-3 py-1 text-black bg-white font-semibold border rounded-2xl">Create playlist</button>
+                        </div>
+        
+                        <!-- 2nd-container -->
+                        <div class=" bg-neutral-700 rounded-xl p-4 h-36 md:h-36 mb-4 ">
+                            <h2 class="text-md font-bold mb-3">let's find some prodcasts to follow</h2>
+                            <p class="text-xs font-semibold mb-5">We'll keep you updated on new episodes</p>
+                            <button class="px-3 py-1 text-black bg-white font-semibold border rounded-2xl">Create playlist</button>
+                        </div>
+    
+                    </div>
+                    <!-- 3rd-container -->
+                    <div class="flex gap-4 text-xs flex-wrap text-neutral-400 mt-2 mb-6 p-2  ">
+                        <div>Legal</div> <div>Safety and Privacy center </div> <div>Privacy and Policy</div> <div>Cookies</div>   <div>About ads</div>  <div>Accessbility</div>
+                    </div>
+                    <button class="border rounded-2xl px-3 py-1 font-bold scale-100 hover:scale-105 duration-300"><i class="fa-solid fa-globe"></i> English</button>
+                </div>
+            </div>
+                                                     <!--------------------------MAIN-CONTAINER----------------------->                  
+                          <div class=" md:w-[72%] md:h-[614px]   bg-neutral-800 rounded ">
+                                                                    <!-- nav-bar -->
+                                                                                                                     <!----------FIXED-------------->
+                                                     <div class="md:h-[8%]  md:fixed w-[71%] flex md:justify-between justify-center  p-3 ">
+                                                                        <div class="flex text-sm ">
+                                                                            <div>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="invisible md:visible p-1 md:w-8 md:h-8 md:mr-4 bg-neutral-700 opacity-70   rounded-full ">
+                                                                                                   <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                                                                                  </svg>
+                                                                            </div>
+                                                                            <div>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="md:w-8 md:h-8 flex p-1 invisible md:visible  bg-neutral-700 opacity-70 rounded-full">
+                                                                                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                                                                  </svg> 
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="flex text-md gap-6 ">
+                                                                            <button class="scale-100 hover:scale-105 duration-150 rounded-2xl font-bold md:text-lg px-3 py-3 flex justify-center items-center md:px-5 md:py-1 hover:bg-white hover:text-black ">Sign up</button>
+                                                                            <button class="scale-100 hover:scale-105 duration-150 rounded-2xl font-bold md:text-lg px-3 py-3 flex justify-center items-center md:px-5 md:py-1 hover:bg-white hover:text-black ">Login in</button>
+                                                                        </div>
+                                                                    </div>
+                                                        
+                                                                                             <!-- ALBUMS -->
+                                                                    <div class="   h-[560px] mt-14 overflow-y-scroll p-1 ">
+                                                                        <div class="flex justify-between p-2"> <h2 class="font-bold text-3xl">Popular artists</h2> <p class="font-bold text-lg">see all</p></div>
+                                                                        <div class="flex gap-5 p-2 ">
+                                                                            <div>
+                                                                                <img src="../new assets/arjit singh.jpg" alt="" class=" hover:scale-105 duration-300 rounded-full h-32 w-32">
+                                                                                <p class="text-lg text-gray-200 ">Arjit singh</p>
+                                                                                <p class="text-md font-thin">Artist</p>
+                                                                            </div>
+                                                                            <div>
+                                                                                <img src="../new assets/pritam_1.jpg" alt="" class=" hover:scale-105 duration-300 rounded-full h-32 w-32">
+                                                                                <p class="text-lg text-gray-200">Pritam</p>
+                                                                                <p class="text-md font-thin">Artist</p>
+                                                                            </div>
+                                                                            <div>
+                                                                                <img src="../new assets/charlie path.jpg" alt="" class=" hover:scale-105 duration-300 rounded-full h-32 w-32">
+                                                                                <p class="text-lg text-gray-200">Charlie Path</p>
+                                                                                <p class="text-md font-thin">Artist</p>
+                                                                            </div>
+                                                                            <div>
+                                                                                <img src="../new assets/marshmello.jpg" alt="" class="hover:scale-105 duration-300  rounded-full h-32 w-32">
+                                                                                   <p class="text-lg text-gray-200">Marshmello</p>
+                                                                                <p class="text-md font-thin">Artist</p>
+                                                                            </div>
+                                                                            <div>
+                                                                                <img src="../new assets/arman.jpg" alt="" class=" hover:scale-105 duration-300 rounded-full h-32 w-32">
+                                                                                   <p class="text-lg text-gray-200">Arman malik</p>
+                                                                                <p class="text-md font-thin">Artist</p>
+                                                                            </div>
+                                                                            <div>
+                                                                                <img src="../new assets/hanas Zimmer.jpg" alt="" class=" hover:scale-105 duration-300 rounded-full h-32 w-32">
+                                                                                   <p class="text-lg text-gray-200">HanasZimmer</p>
+                                                                                <p class="text-md font-thin">Artist</p>
+                                                                            </div>
+                                                                            <div>
+                                                                                <img src="../new assets/adele.jpg" alt="" class=" hover:scale-105 duration-300 rounded-full h-32 w-32">
+                                                                                   <p class="text-lg text-gray-200">Adle</p>
+                                                                                <p class="text-md font-thin">Artist</p>
+                                                                            </div>
+                                                                            <div>
+                                                                                <img src="../new assets/Alan walker.jpg" alt="" class=" hover:scale-105 duration-300 rounded-full h-32 w-32">
+                                                                                   <p class="text-lg text-gray-200">Alan Walker</p>
+                                                                                <p class="text-md font-thin" >Artist</p>
+                                                                            </div>
+                                                                        </div>
+                                                                        
+                                                                                                                  <!---------POPULAR ALBUM--------->
+                                                                        <div>
+                                                                            <div class="flex justify-between p-2 "> <h2 class="font-bold text-3xl">Popular albums</h2> <p class="font-bold text-lg">see all</p></div>
+                                                                            <div class="flex gap-5 p-2 ">
+                                                                                <div>
+                                                                                    <img src="../new assets/kk.jpg" alt="" class=" hover:scale-105 duration-300 rounded h-32 w-32">
+                                                                                    <p class=" font-bold text-lg text-neutral-400 ">KK</p>
+                                                                                    <p class="text-md font-thin">all time best</p>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <img src="../new assets/kohinoor.jpg" alt="" class=" hover:scale-105 duration-300 h-32 w-32">
+                                                                                    <p class=" font-bold text-lg text-neutral-400">Kohinoor</p>
+                                                                                    <p class="text-md font-thin">2019.DIVINE</p>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <img src="../new assets/Alan walker album.jpg" alt="" class="hover:scale-105 duration-300 rounded h-32 w-32">
+                                                                                    <p class=" font-bold text-lg text-neutral-400">Alan walker</p>
+                                                                                    <p class="text-md font-thin">Pop</p>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <img src="../new assets/honey singh.jpg" alt="" class="hover:scale-105 duration-300 rounded h-32 w-32">
+                                                                                    <p class=" font-bold text-lg text-neutral-400">Honey singh</p>
+                                                                                    <p class="text-md font-thin">Retro</p>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <img src="../new assets/javade ali.jpg" alt="" class=" hover:scale-105 duration-300rounded h-32 w-32">
+                                                                                    <p class=" font-bold text-lg text-neutral-400">Javed ali</p>
+                                                                                    <p class="text-md font-thin">Best</p>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <img src="../new assets/mix.jpg" alt="" class="hover:scale-105 duration-300 rounded h-32 w-32">
+                                                                                    <p class=" font-bold text-lg text-neutral-400">Best of 2024</p>
+                                                                                    <p class="text-md font-thin"></p>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <img src="../new assets/N.jpg" alt="" class="hover:scale-105 duration-300 rounded h-32 w-32">
+                                                                                    <p class=" font-bold text-lg text-neutral-400">Zindgi</p>
+                                                                                    <p class="text-md font-thin">2020</p>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <img src="../new assets/v.jpg" alt="" class="hover:scale-105 duration-300rounded h-32 w-32">
+                                                                                    <p class=" font-bold text-lg text-neutral-400">Vardana</p>
+                                                                                    <p class="text-md font-thin" >2021</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>    
+                                                                        
+                                                                                               <!------------Popular Radio------------>
+                                                                        <div>
+                                                                            <div class="flex justify-between p-2"> <h2 class="font-bold text-3xl">Popular Radio</h2> <p class="font-bold text-lg">see all</p></div>
+                                                                            <div class="flex gap-5 p-2 ">
+                                                                                <div>
+                                                                                    <img src="../new assets/r1.jpg" alt="" class="hover:scale-105 duration-300  rounded h-32 w-32">
+                                                                                    <p class=" font-bold text-lg text-neutral-400 ">Mercury act</p>
+                                                                                    <p class="text-md font-thin">2022</p>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <img src="../new assets/r2.jpg" alt="" class=" hover:scale-105 duration-300 h-32 w-32">
+                                                                                    <p class=" font-bold text-lg text-neutral-400 overflow-hidden">Dusk till.....</p>
+                                                                                    <p class="text-md font-thin">2017.ZAYN</p>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <img src="../new assets/r3.jpg" alt="" class="hover:scale-105 duration-300 rounded h-32 w-32">
+                                                                                    <p class=" font-bold text-lg text-neutral-400">NatureNoise</p>
+                                                                                    <p class="text-md font-thin">2024.release(...</p>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <img src="../new assets/r4.jpg" alt="" class="hover:scale-105 duration-300 rounded h-32 w-32">
+                                                                                    <p class=" font-bold text-lg text-neutral-400">Okcomputer..</p>
+                                                                                    <p class="text-md font-thin">2017 Radiohead</p>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <img src="../new assets/r5.jpg" alt="" class=" rounded h-32 w-32">
+                                                                                    <p class=" font-bold text-lg text-neutral-400">Choosing(..</p>
+                                                                                    <p class="text-md font-thin">legend..</p>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <img src="../new assets/r6.jpg" alt="" class=" rounded h-32 w-32">
+                                                                                    <p class=" font-bold text-lg text-neutral-400">ValorentGame</p>
+                                                                                    <p class="text-md font-thin">for_Gameing</p>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <img src="../new assets/r7.jpg" alt="" class=" hover:scale-105 duration-300rounded h-32 w-32">
+                                                                                    <p class=" font-bold text-lg text-neutral-400">Cooder(radio.</p>
+                                                                                    <p class="text-md font-thin">2024.openAI</p>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <img src="../new assets/r8.jpg" alt="" class="hover:scale-105 duration-300 rounded h-32 w-32">
+                                                                                    <p class=" font-bold text-lg text-neutral-400">Chcago love</p>
+                                                                                    <p class="text-md font-thin" >Lovers</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                 
+                                                                </div>    
+        </div>
+
+                                      <!--FOOTER------>
+        <div class=" h-[75px] flex  items-center justify-between rounded-md text-white px-6 bg-gradient-to-r from-pink-700 to-blue-600">
+            <div>
+                <h2>Preview of Spotify</h2>
+                <p>Sign up to get unlimted songs and prodcasts with occassional ads.No criedt card needed.</p>
+            </div>
+            <button class="bg-white text-black font-bold text-lg rounded-3xl px-4 py-1 scale-100 hover:scale-105 duration-300">Sign up for free</button>
+        </div>
+    </div>
+</body>
+</html>
